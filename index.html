@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/styles/lightbox.css">
+	<link rel="stylesheet" href="./assets/styles/main.css">
+	<title>TeaBoom</title>
+</head>
+<body class="body">
+	<div class="container">
+		<div class="product-card">						
+			<div class="product-info">
+				<img class="product-image" src="./assets/images/tea-image.jpg" alt="Улун">
+				<div class="price-block">
+					<div class="product-head">
+						<h1 id="productTitle" class="product-name"></h1>
+						<div class="product-category"></div>
+					</div>
+					<div class="packaking-price">		
+						<label class="label" for="packaging">Фасовка:</label>
+						<select class="packaging-select" id="packaging"></select>
+				
+						<div class="price-block">
+							<span class="price" id="price">—</span>
+							<span class="old-price" id="oldPrice"></span>
+						</div>
+						<div class="article" id="article"></div>
+					</div>
+				<button class="btn-basket" type="button">В корзину</button>				
+			</div>
+		</div>
+		<div class="product-description">
+			<p>Состав: китайский бирюзовый чай, цукаты, натуральные ароматические масла. Светлый Фуцзяньский улун с ароматом
+				ананаса. В сухом виде — красивый крупный лист изумрудного цвета, скруткой листа напоминающий Те Гуань Инь. В
+				прогретой посуде аромат свежей, весенней зелени и спелого ананаса. Скрученный лист медленно раскрывается,
+				отдавая весь свой аромат. Тем, кому пришёлся по вкусу этот чай, может также понравиться связанный чай
+				«Ананасовый рай».</p>
+		
+			<h2>Вкус</h2>
+		
+			<p>Настой прозрачный, светло-янтарного цвета. Классическая нота светлого фуцзяньского улуна переплетается c яркой
+				ананасовой нотой.</p>
+		
+			<h2>Полезные свойства</h2>
+			<ul>
+				<li>отличный антиоксидант</li>
+				<li>снижает уровень холестерина</li>
+				<li>снижает лишний вес</li>
+			</ul>
+		</div>
+	</div>
+<script type="module" src="./assets/data.js"></script>
+<script type="module" src="./assets/scripts/main.js"></script>
+</body>
+</html>
